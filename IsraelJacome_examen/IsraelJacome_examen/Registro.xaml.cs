@@ -18,7 +18,7 @@ namespace IsraelJacome_examen
             string usuar = lbluser.Text;
             lbluser.Text = usuar + user;
         }
-
+        
         private void btnCalcular_Clicked(object sender, EventArgs e)
         {
             int montos = int.Parse(txtMontoInicial.Text);
